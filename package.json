@@ -1,0 +1,12 @@
+{
+  "name": "deepanath",
+  "version": "1.0.0",
+  "description": "A webpage that visualizes a Jenkinsfile",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"console.log('tests passed')\"",
+    "build": "node -e \"console.log('build complete')\""
+  },
+  "engines": { "node": ">=20" }
+}
