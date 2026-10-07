@@ -1,12 +1,17 @@
 {
-  "name": "deepanath",
+  "name": "deepanath-website",
   "version": "1.0.0",
-  "description": "A webpage that visualizes a Jenkinsfile",
+  "description": "Personal website for Deepanath built with Node.js, Express, HTML, CSS, and JavaScript",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "node -e \"console.log('tests passed')\"",
-    "build": "node -e \"console.log('build complete')\""
+    "dev": "node --watch server.js"
   },
-  "engines": { "node": ">=20" }
+  "keywords": ["portfolio", "website", "deepanath", "nodejs", "express"],
+  "author": "Deepanath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
+
